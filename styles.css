@@ -26,10 +26,6 @@ h1{margin:0;font-family:Baskerville,"Times New Roman",Georgia,serif;font-size:43
 .timeline{background:rgba(255,253,248,.78);border-radius:25px;border:1px solid rgba(255,255,255,.8);box-shadow:var(--shadow);overflow:hidden}
 .moment{display:grid;grid-template-columns:50px 1fr;gap:14px;padding:20px 18px;border-bottom:1px solid var(--line)}.moment:last-child{border-bottom:none}
 .symbol{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;border:1px solid rgba(166,124,59,.35);font-family:Georgia,serif;font-size:18px;color:var(--gold);background:rgba(166,124,59,.06)}
-.cross-icon{position:relative;display:block;width:18px;height:24px;color:var(--gold)}
-.cross-icon::before,.cross-icon::after{content:"";position:absolute;left:50%;top:50%;background:var(--gold);transform:translate(-50%,-50%);border-radius:1px;display:block;z-index:2}
-.cross-icon::before{width:3px;height:24px}
-.cross-icon::after{width:16px;height:3px;top:44%}
 .moment-title{font-family:Baskerville,"Times New Roman",Georgia,serif;font-size:19px;margin-bottom:4px}
 .moment-date{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
 .moment-copy{font-size:13px;line-height:1.65;color:#554f48;font-family:Baskerville,"Times New Roman",Georgia,serif;font-style:italic;letter-spacing:.01em}
