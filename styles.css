@@ -9,8 +9,8 @@ h1{margin:0;font-family:Baskerville,"Times New Roman",Georgia,serif;font-size:43
 .amp{display:block;font-style:italic;font-size:26px;color:var(--gold);margin:7px 0 5px}
 .scripture{margin:20px auto 0;max-width:360px;font-family:Baskerville,"Times New Roman",Georgia,serif;font-size:16px;line-height:1.55;font-style:italic;color:#3c3833}
 .verse{display:block;margin-top:7px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-style:normal}
-.card{margin:0 18px;padding:28px 16px 24px;border-radius:28px;background:rgba(255,253,248,.86);border:1px solid rgba(255,255,255,.85);box-shadow:var(--shadow);text-align:center;position:relative}
-.card:before{content:"";position:absolute;inset:10px;border:1px solid rgba(166,124,59,.34);border-radius:20px}
+.card{margin:0 18px;padding:22px 14px 18px;border-radius:24px;background:rgba(255,253,248,.86);border:1px solid rgba(255,255,255,.85);box-shadow:var(--shadow);text-align:center;position:relative}
+.card:before{content:"";position:absolute;inset:8px;border:1px solid rgba(166,124,59,.34);border-radius:18px}
 .kicker,.title,.date,.timer,.blessing{position:relative;z-index:1}
 .kicker{text-transform:uppercase;letter-spacing:.22em;font-size:10px;color:var(--gold);margin-bottom:10px}
 .title{font-family:Baskerville,"Times New Roman",Georgia,serif;font-size:30px;margin-bottom:8px}
@@ -36,4 +36,4 @@ h1{margin:0;font-family:Baskerville,"Times New Roman",Georgia,serif;font-size:43
 .photo{height:360px;margin-top:18px;border-radius:28px;overflow:hidden;position:relative;box-shadow:var(--shadow);background:linear-gradient(to top,rgba(17,17,17,.5),rgba(17,17,17,.03) 58%),url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=88') center/cover}
 .photo-copy{position:absolute;left:22px;right:22px;bottom:22px;color:white;text-align:center}.photo-copy small{display:block;font-size:10px;letter-spacing:.22em;text-transform:uppercase;opacity:.84;margin-bottom:8px}.photo-copy strong{font-family:Baskerville,"Times New Roman",Georgia,serif;font-size:27px;font-weight:500}
 .footer{text-align:center;padding:34px 28px 0;color:var(--muted)}.footer-cross{font-family:Georgia,serif;font-size:25px;color:var(--ink);margin-bottom:12px}.footer p{margin:0;font-family:Baskerville,"Times New Roman",Georgia,serif;font-style:italic;line-height:1.6}
-@media(max-width:370px){h1{font-size:38px}.num{font-size:29px}.card{margin-left:12px;margin-right:12px}.section{padding-left:12px;padding-right:12px}}
+@media(max-width:370px){h1{font-size:38px}.amp{font-size:22px}.num{font-size:29px}.card{margin-left:10px;margin-right:10px;padding:18px 12px 16px;border-radius:20px}.title{font-size:26px}.date{font-size:11px}.timer{margin-top:20px}.section{padding-left:12px;padding-right:12px}}
