@@ -98,7 +98,9 @@ function updateTimer() {
 function revealPage() {
   const page = document.querySelector('.page');
   if (!page) return;
-  window.requestAnimationFrame(() => page.classList.add('is-ready'));
+  window.requestAnimationFrame(() => {
+    window.requestAnimationFrame(() => page.classList.add('is-ready'));
+  });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
