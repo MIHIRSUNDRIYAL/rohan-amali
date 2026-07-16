@@ -95,5 +95,14 @@ function updateTimer() {
   });
 }
 
-updateTimer();
-setInterval(updateTimer, 1000);
+function revealPage() {
+  const page = document.querySelector('.page');
+  if (!page) return;
+  window.requestAnimationFrame(() => page.classList.add('is-ready'));
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  revealPage();
+  updateTimer();
+  setInterval(updateTimer, 1000);
+});
